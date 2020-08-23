@@ -38,7 +38,9 @@
     $string1 = 'My name is ';
     $string2 = 'Robert';
     $greeting = $string1 . $string2; // Concaetnate with a . instead of a +
-    
+
+    $string3 = 'They\'re here'; // Use a \ as an escape character
+
 
     $float1 = 4.4;
     $bool = true;
@@ -46,4 +48,13 @@
     echo $sum;
     echo "<br>";
     echo $greeting;
+    echo "<br>";
+    echo $string3;
+    echo "<br>";
+
+    # NOTE Constants
+
+    define('GREETING', 'Hello, I am a PHP Constant'); // (Constant Name, Constant Value, Case Sensitive true/false)
+
+    echo GREETING;
 ?>
