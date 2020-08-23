@@ -7,7 +7,7 @@
     Multi-line comment
 */
 
-# NOTE VARIABLES
+# NOTE Variables
 /*
   - Prefix with a $
   - Must start with a letter or an underscore
